@@ -9811,8 +9811,40 @@ body {
   margin-right: 5px;
 }
 
+.paud-title-section {
+  color: #2d6ca2;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.paud-title-section strong {
+  font-weight: bold;
+}
+
+.paud-title-section::before {
+  content: url("../img/logo-title.jpg");
+  margin-right: 10px;
+}
+
 .paud-list-berita {
   margin-bottom: 30px;
+}
+
+.paud-navbar .navbar-nav li.nav-item {
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+  padding-left: 20px;
+}
+
+.paud-navbar .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.paud-navbar .navbar-nav li.nav-item:last-child {
+  border: none;
 }
 
 .card-horizontal {
