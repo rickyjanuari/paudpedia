@@ -9732,8 +9732,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .carousel-indicators li {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
 }
 
 /* MARKETING CONTENT
@@ -9798,6 +9800,34 @@ a.text-dark:hover, a.text-dark:focus {
   height: 50px;
 }
 
+.paud-carousel .paud-carousel-inner .paud-carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh !important;
+}
+
+.paud-carousel .paud-carousel-inner .paud-carousel-item .paud-carousel-caption {
+  bottom: 40%;
+}
+
+.paud-carousel .paud-carousel-inner .paud-carousel-item .paud-carousel-caption h1 {
+  background: #00000080;
+  display: inline-block;
+  font-size: 36px;
+}
+
+.paud-carousel .paud-carousel-inner .paud-carousel-item .paud-carousel-btn {
+  border: 2px solid #fff;
+  background: none;
+  border-radius: 0px;
+  font-size: 14px;
+}
+
+.paud-carousel .carousel-control-prev,
+.paud-carousel .carousel-control-next {
+  display: none;
+}
+
 body {
   font-family: 'Gotham XNarrow Medium';
 }
@@ -9825,6 +9855,36 @@ body {
 
 .paud-header_menu_center a i {
   margin-right: 5px;
+}
+
+.paud-header_menu_center a:hover {
+  text-decoration: none;
+}
+
+.paud-header_menu_center_tentang {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #f2b84b;
+  color: #fff !important;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+}
+
+.paud-header_tanggal {
+  font-size: 14;
+  color: #999999;
+  font-family: 'Gotham XNarrow Light';
+  font-weight: 300px;
+}
+
+.paud-header_search {
+  width: 100% !important;
+}
+
+.paud-header_search input {
+  width: 100% !important;
 }
 
 .paud-title-section {
@@ -9856,7 +9916,11 @@ body {
 
 .paud-navbar .navbar-nav li.nav-item a.nav-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
+}
+
+.paud-navbar .navbar-nav li.nav-item .dropdown-item {
+  font-size: 20px;
 }
 
 .paud-navbar .navbar-nav li.nav-item:last-child {
