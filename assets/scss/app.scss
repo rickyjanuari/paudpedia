@@ -1,0 +1,68 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "bootstrap/bootstrap";
+
+// Your style
+@import "variables";
+@import "mixins";
+@import "general";
+@import "layout";
+@import "module";
+@import "carousel";
+@import "offcanvas";
+ 
+body {
+    font-family:'Gotham XNarrow Medium';
+}
+.paud-header {
+    &_logo {
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+        a {
+            img {
+                width: 200px;
+                margin: auto;
+            }
+        }
+    }
+    &_menu_center {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        
+        a {
+            margin-right: 15px;
+            color: #999999;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.paud-list-berita {
+    margin-bottom: 30px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    .paud-nama-canal {
+        margin-right: 15px;
+    }
+}
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
