@@ -29,6 +29,10 @@
     height: 32rem;
   }
   
+  .carousel-indicators li {
+    height: 20px;
+    width: 20px;
+  }
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -82,4 +86,14 @@
     .featurette-heading {
       margin-top: 7rem;
     }
+  }
+
+  .carousel-indicators {
+    left: initial;
+    right: 0;
+    flex-direction: column;
+  }
+  .paud-footer {
+    background: #5f98bd;
+    height: 50px;
   }
