@@ -10063,6 +10063,16 @@ li.video:hover:before {
   }
 }
 
+.paud-main-list-berita {
+  margin-left: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .paud-main-list-berita {
+    margin-left: 0px;
+  }
+}
+
 .paud-list-berita {
   margin-bottom: 30px;
   margin-top: 30px;
