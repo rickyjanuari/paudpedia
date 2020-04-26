@@ -433,7 +433,70 @@ footer {
 }
 .paud-hero-ruangbersama {
     padding-top: 50px;
+    padding-bottom: 50px;
     p {
         margin-top: 30px;
+    }
+}
+
+.paud-title-ruangbersama {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #ef4b54;
+    color: #fff !important;
+    border-radius: 60px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
+    width: 400px;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.paud-title-ruangbersama-forum {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #00b6d7;
+    color: #fff !important;
+    border-radius: 60px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.paud-list-forum {
+    border: none;
+    .paud-card-body {
+        padding-top: 0px;
+    }
+    .paud-card-title {
+        a {
+            color: #000;
+        }
+        
+    }
+    .paud-list-forum-excerpt {
+        font-size: 16px;
+        font-family:'Gotham XNarrow Light' !important;
+    }
+    .paud-list-forum-link {
+        border: 1px solid #000;
+        font-family:'Gotham XNarrow Light' !important;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #000;
+        font-size: 12;
+        float: right;
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
