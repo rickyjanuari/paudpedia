@@ -239,7 +239,6 @@ body {
 
 // PAUD MAIN BERITA
 .paud-main-berita {
-    margin-top: 30px;
     padding-right: 40px;
     border-right: 1px solid #ddd;
     @media only screen and (max-width: 768px) {
@@ -397,7 +396,7 @@ footer {
 }
 
 // RUANG CERIA
-.paud-main-ruang-ceria {
+.paud-main-vertical {
     margin-top: 0px;
     .paud-title-section {
         margin-bottom: 0px;
@@ -406,10 +405,15 @@ footer {
         display: none;
     }
 }
-.paud-main-list-ruang-ceria {
+.paud-main-list-vertical {
     display: flex;
-    .paud-list-ruang-ceria {
+    flex-wrap: wrap;
+    .paud-list-vertical {
+        flex: 1 0 14%;
         margin: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
         h3 {
             a {
                 font-size: 20px;
@@ -417,13 +421,19 @@ footer {
             }
         }
     }
-    .paud-list-ruang-ceria:first-child {
-        margin-left: 0px;
-    }
-    .paud-list-ruang-ceria:last-child {
-        margin-right: 0px;
-    }
+    // .paud-list-vertical:first-child {
+    //     margin-left: 0px;
+    // }
+    // .paud-list-vertical:last-child {
+    //     margin-right: 0px;
+    // }
 }
 .paud-pagination {
-
+    margin-top: 15px;
+}
+.paud-hero-ruangbersama {
+    padding-top: 50px;
+    p {
+        margin-top: 30px;
+    }
 }

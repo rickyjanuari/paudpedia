@@ -10052,7 +10052,6 @@ li.video:hover:before {
 }
 
 .paud-main-berita {
-  margin-top: 30px;
   padding-right: 40px;
   border-right: 1px solid #ddd;
 }
@@ -10214,35 +10213,44 @@ footer {
   }
 }
 
-.paud-main-ruang-ceria {
+.paud-main-vertical {
   margin-top: 0px;
 }
 
-.paud-main-ruang-ceria .paud-title-section {
+.paud-main-vertical .paud-title-section {
   margin-bottom: 0px;
 }
 
-.paud-main-ruang-ceria .paud-title-section:before {
+.paud-main-vertical .paud-title-section:before {
   display: none;
 }
 
-.paud-main-list-ruang-ceria {
+.paud-main-list-vertical {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.paud-main-list-ruang-ceria .paud-list-ruang-ceria {
+.paud-main-list-vertical .paud-list-vertical {
+  flex: 1 0 14%;
   margin: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
 }
 
-.paud-main-list-ruang-ceria .paud-list-ruang-ceria h3 a {
+.paud-main-list-vertical .paud-list-vertical h3 a {
   font-size: 20px;
   color: #000;
 }
 
-.paud-main-list-ruang-ceria .paud-list-ruang-ceria:first-child {
-  margin-left: 0px;
+.paud-pagination {
+  margin-top: 15px;
 }
 
-.paud-main-list-ruang-ceria .paud-list-ruang-ceria:last-child {
-  margin-right: 0px;
+.paud-hero-ruangbersama {
+  padding-top: 50px;
+}
+
+.paud-hero-ruangbersama p {
+  margin-top: 30px;
 }
