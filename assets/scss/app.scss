@@ -108,7 +108,7 @@ body {
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
-    .paud-nama-canal {
+    .paud-nama-kanal {
         margin-right: 15px;
     }
 }
@@ -239,6 +239,7 @@ body {
 
 // PAUD MAIN BERITA
 .paud-main-berita {
+    margin-top: 30px;
     padding-right: 40px;
     border-right: 1px solid #ddd;
     @media only screen and (max-width: 768px) {
@@ -246,6 +247,9 @@ body {
         border: none;
     }
     
+}
+.paud-detail-berita {
+
 }
 .paud-main-list-berita {
     margin-left: 80px;
@@ -274,19 +278,21 @@ body {
         }
         .paud-card-title {
             font-size: 24px;
-            // color: #2d6ca2;
+            a {
+                color: #000;
+            }
         }
         .paud-card-text {
-            .paud-nama-canal {
+            .paud-nama-kanal {
                 padding-left: 15px;
                 padding-right: 15px;
-                
                 color: #fff !important;
                 border-radius: 30px;
                 border-bottom-left-radius: 0px;
                 font-size: 10px;
                 padding-top: 2px;
                 padding-bottom: 2px;
+                margin-right: 15px;
                 
             }
             .paud-jam-upload {
@@ -301,16 +307,47 @@ body {
         }
     }
 }
+.paud-list-berita-featured {
+    .paud-image-thumb {
+        img {
+            width: 100%;
+        }
+        .paud-caption-foto {
+            margin-top: 15px;
+            color: #6c757d !important;
+            font-size: 14px;
+        }
+    } 
+}
+.paud-sidebar-list-berita {
+    
+    .paud-list-berita {
+        .paud-card-body {
+            padding: 0px;
+        }
+    }
+    .paud-list-berita:last-child {
+        margin-bottom: 60px;
+    }
+}
 .paud-list-berita:nth-of-type(odd) {
-    .paud-nama-canal {
+    .paud-nama-kanal {
         background: #f2b84b;
     }
 }
 .paud-list-berita:nth-of-type(even) {
-    .paud-nama-canal {
+    .paud-nama-kanal {
         background: #17b3d3;
     }
+    
 }
+.paud-kanal-guru-penggerak {
+    background: #17b3d3 !important;
+}
+.paud-kanal-orang-tua {
+    background: #f2b84b !important;
+}
+
 // Sidebar
 .paud-sidebar {
     padding-left: 40px;
@@ -343,6 +380,7 @@ footer {
     position: relative;
     width: 100%;
     margin-bottom: 100px;
+    margin-top: 60px;
     @media only screen and (max-width: 768px) {
         margin-bottom: 50px;
         font-size: 26px;
@@ -356,4 +394,36 @@ footer {
             right: -10px !important;  
         }
     }
+}
+
+// RUANG CERIA
+.paud-main-ruang-ceria {
+    margin-top: 0px;
+    .paud-title-section {
+        margin-bottom: 0px;
+    }
+    .paud-title-section:before {
+        display: none;
+    }
+}
+.paud-main-list-ruang-ceria {
+    display: flex;
+    .paud-list-ruang-ceria {
+        margin: 20px;
+        h3 {
+            a {
+                font-size: 20px;
+                color: #000;;
+            }
+        }
+    }
+    .paud-list-ruang-ceria:first-child {
+        margin-left: 0px;
+    }
+    .paud-list-ruang-ceria:last-child {
+        margin-right: 0px;
+    }
+}
+.paud-pagination {
+
 }
