@@ -68,11 +68,14 @@ body {
 }
 .paud-title-section {
     color: #2d6ca2;
-    font-weight: 100;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:'Gotham XNarrow Light';
+    font-size: 30px !important;
     strong {
         font-weight: bold;
+        font-family:'Gotham XNarrow Bold';
     }
     position: relative;
     &::before {
@@ -81,9 +84,7 @@ body {
     }
 }
 
-.paud-list-berita {
-    margin-bottom: 30px;
-}
+
 
 .paud-navbar {
     .navbar-nav {
@@ -235,3 +236,118 @@ body {
   }
   
  
+
+// PAUD MAIN BERITA
+.paud-main-berita {
+    padding-right: 40px;
+    border-right: 1px solid #ddd;
+    @media only screen and (max-width: 768px) {
+        padding-right: 15px;
+        border: none;
+    }
+    
+}
+.paud-list-berita {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: none;
+    .paud-card-horizontal {
+        .paud-image-thumb {
+            img {
+                @media only screen and (max-width: 768px) {
+                    width: 150px;
+                }
+            }
+        }
+        
+    }
+    .paud-card-body {
+        padding-top: 30px;
+        @media only screen and (max-width: 768px) {
+            padding-top: 15px;
+        }
+        .paud-card-title {
+            font-size: 24px;
+            // color: #2d6ca2;
+        }
+        .paud-card-text {
+            .paud-nama-canal {
+                padding-left: 15px;
+                padding-right: 15px;
+                
+                color: #fff !important;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                font-size: 10px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                
+            }
+            .paud-jam-upload {
+                font-family:'Gotham XNarrow Light';
+                font-size: 10px;
+            }
+        }
+    }
+    .paud-card-vertical {
+        .paud-card-body {
+            padding-left: 0px;
+        }
+    }
+}
+.paud-list-berita:nth-of-type(odd) {
+    .paud-nama-canal {
+        background: #f2b84b;
+    }
+}
+.paud-list-berita:nth-of-type(even) {
+    .paud-nama-canal {
+        background: #17b3d3;
+    }
+}
+// Sidebar
+.paud-sidebar {
+    padding-left: 40px;
+    @media only screen and (max-width: 768px) {
+        padding-left: 15px;
+    }
+}
+
+.paud-map-widget {
+    p {
+        font-size: 14px;
+        margin-top:15px;
+    }
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.paud-informasi-data-section {
+    color: #2d6ca2;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:'Gotham XNarrow Bold';
+    font-size: 30px !important;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+    @media only screen and (max-width: 768px) {
+        margin-bottom: 50px;
+        font-size: 26px;
+    }
+    &::after {
+        content: url('../img/logo-section.png');
+        position: absolute;
+        right: 0;    
+        @media only screen and (max-width: 768px) {
+            content: url('../img/logo-title.jpg');
+            right: -10px !important;  
+        }
+    }
+}
