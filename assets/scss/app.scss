@@ -519,12 +519,13 @@ footer {
     border: none;
     background-size: contain;
     height: 450px;
-    width: 450px;
+    width: 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-position: center center;
     form {
         // width: 50%;
         margin: 0 auto;
