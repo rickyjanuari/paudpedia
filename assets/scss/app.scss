@@ -76,7 +76,7 @@ body {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family:'Gotham Narrow Light';
+    font-family:'Gotham Narrow Light Italic';
     font-size: 35px !important;
     strong {
         font-weight: bold;
@@ -541,13 +541,18 @@ footer {
             }
         }
         button {
-            background: none;
+            background: #f2b84b;
             border: none;
-            color: #000;
+            border-radius: 0px;
+            color: #fff;
             &:hover {
-                background: none;
-                color: #000;
+                background: #f5a000;
+                color: #fff;
             }
+        }
+        a {
+            margin-top: 5px;;
+            color: #000;
         }
     }
 }

@@ -9908,7 +9908,7 @@ body {
   font-weight: 300;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Gotham Narrow Light';
+  font-family: 'Gotham Narrow Light Italic';
   font-size: 35px !important;
   position: relative;
 }
@@ -10370,12 +10370,18 @@ footer {
 }
 
 .paud-login-form form button {
-  background: none;
+  background: #f2b84b;
   border: none;
-  color: #000;
+  border-radius: 0px;
+  color: #fff;
 }
 
 .paud-login-form form button:hover {
-  background: none;
+  background: #f5a000;
+  color: #fff;
+}
+
+.paud-login-form form a {
+  margin-top: 5px;
   color: #000;
 }
