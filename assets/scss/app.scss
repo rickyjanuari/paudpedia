@@ -16,7 +16,12 @@
 body {
     font-family:'Gotham XNarrow Medium';
 }
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
 .paud-header {
+    padding-top: 10px;
     &_logo {
         display: block;
         text-align: center;
@@ -72,10 +77,11 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family:'Gotham XNarrow Light';
-    font-size: 30px !important;
+    font-size: 40px !important;
     strong {
         font-weight: bold;
         font-family:'Gotham XNarrow Bold';
+        margin-right: 5px;
     }
     position: relative;
     &::before {
@@ -372,7 +378,7 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family:'Gotham XNarrow Bold';
-    font-size: 30px !important;
+    font-size: 40px !important;
     display: flex;
     align-items: center;
     vertical-align: center;
