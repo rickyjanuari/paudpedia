@@ -9862,6 +9862,9 @@ body {
 .paud-header_menu_center {
   padding-bottom: 15px;
   padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .paud-header_menu_center a {

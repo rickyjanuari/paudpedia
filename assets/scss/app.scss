@@ -36,7 +36,9 @@ body {
     &_menu_center {
         padding-bottom: 15px;
         padding-top: 15px;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
         a {
             margin-right: 15px;
             color: #999999;
