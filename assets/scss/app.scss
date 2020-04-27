@@ -518,12 +518,13 @@ footer {
     background-size: contain;
     height: 450px;
     background-repeat: no-repeat;
-    .card-body {
-        padding-top: 22%;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     form {
         
-        width: 50%;
+        // width: 50%;
         margin: 0 auto;
         input {
             text-align: center;
