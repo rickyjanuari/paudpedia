@@ -14,7 +14,7 @@
 @import "offcanvas";
  
 body {
-    font-family:'Gotham XNarrow Medium';
+    font-family:'Gotham Narrow Medium';
 }
 body {
     max-width: 90%;
@@ -61,7 +61,7 @@ body {
     &_tanggal {
         font-size: 14;
         color: #999999;
-        font-family:'Gotham XNarrow Light';
+        font-family:'Gotham Narrow Light';
         font-weight: 300px;
     }
     &_search {
@@ -76,11 +76,11 @@ body {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family:'Gotham XNarrow Light';
+    font-family:'Gotham Narrow Light';
     font-size: 35px !important;
     strong {
         font-weight: bold;
-        font-family:'Gotham XNarrow Bold';
+        font-family:'Gotham Narrow Bold';
         margin-right: 5px;
     }
     position: relative;
@@ -301,7 +301,7 @@ body {
                 
             }
             .paud-jam-upload {
-                font-family:'Gotham XNarrow Light';
+                font-family:'Gotham Narrow Light';
                 font-size: 10px;
             }
         }
@@ -376,7 +376,7 @@ footer {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family:'Gotham XNarrow Bold';
+    font-family:'Gotham Narrow Bold';
     font-size: 40px !important;
     display: flex;
     align-items: center;
@@ -489,11 +489,11 @@ footer {
     }
     .paud-list-forum-excerpt {
         font-size: 16px;
-        font-family:'Gotham XNarrow Light' !important;
+        font-family:'Gotham Narrow Light' !important;
     }
     .paud-list-forum-link {
         border: 1px solid #000;
-        font-family:'Gotham XNarrow Light' !important;
+        font-family:'Gotham Narrow Light' !important;
         padding: 5px;
         padding-left: 10px;
         padding-right: 10px;
