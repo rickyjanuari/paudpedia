@@ -9909,7 +9909,7 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   font-family: 'Gotham XNarrow Light';
-  font-size: 40px !important;
+  font-size: 35px !important;
   position: relative;
 }
 
@@ -10167,14 +10167,6 @@ li.video:hover:before {
   background: #17b3d3;
 }
 
-.paud-kanal-guru-penggerak {
-  background: #17b3d3 !important;
-}
-
-.paud-kanal-orang-tua {
-  background: #f2b84b !important;
-}
-
 .paud-sidebar {
   padding-left: 40px;
 }
@@ -10336,4 +10328,54 @@ footer {
 
 .paud-list-forum .paud-list-forum-link:hover {
   text-decoration: none;
+}
+
+.paud-sidebar img {
+  width: 100%;
+}
+
+.paud-login-form {
+  background-image: url("../img/ruangbersama.png");
+  border: none;
+  background-size: contain;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+
+.paud-login-form .card-body {
+  padding-top: 22%;
+}
+
+.paud-login-form form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.paud-login-form form input {
+  text-align: center;
+}
+
+.paud-login-form form .paud-form-input {
+  background: #d1e4f3;
+  padding: 15px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.paud-login-form form .paud-form-input input {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.paud-login-form form button {
+  background: none;
+  border: none;
+  color: #000;
+}
+
+.paud-login-form form button:hover {
+  background: none;
+  color: #000;
 }
