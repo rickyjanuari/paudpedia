@@ -9800,6 +9800,10 @@ a.text-dark:hover, a.text-dark:focus {
   height: 50px;
 }
 
+.paud-carousel {
+  margin-top: -59px;
+}
+
 .paud-carousel .paud-carousel-inner .paud-carousel-item {
   background-repeat: no-repeat;
   background-size: cover;
@@ -9833,6 +9837,20 @@ a.text-dark:hover, a.text-dark:focus {
 .paud-carousel .carousel-control-prev,
 .paud-carousel .carousel-control-next {
   display: none;
+}
+
+.fa, .fas {
+  font-family: FontAwesome !important;
+  font-weight: normal !important;
+}
+
+.bg-dark {
+  background-color: #00000080 !important;
+  z-index: 99;
+}
+
+main {
+  margin-bottom: 30px;
 }
 
 body {
@@ -9914,18 +9932,17 @@ body {
 
 .paud-title-section {
   color: #2d6ca2;
-  font-weight: 300;
   margin-top: 30px;
   margin-bottom: 30px;
   font-family: 'Gotham Narrow Light Italic';
   font-size: 35px !important;
+  display: flex;
   position: relative;
 }
 
 .paud-title-section strong {
-  font-weight: bold;
-  font-family: 'Gotham Narrow Bold';
-  margin-right: 5px;
+  font-family: 'Gotham Narrow Medium Italic';
+  font-weight: normal;
 }
 
 .paud-title-section::before {
@@ -9941,11 +9958,11 @@ body {
 
 .paud-navbar .navbar-nav li.nav-item a.nav-link {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .paud-navbar .navbar-nav li.nav-item .dropdown-item {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .paud-navbar .navbar-nav li.nav-item:last-child {
@@ -10195,40 +10212,43 @@ footer {
   margin-top: 50px;
 }
 
-.paud-informasi-data-section {
+.data-paud-section {
+  margin-bottom: 60px;
+}
+
+.data-paud-section_logo {
+  width: 100%;
+}
+
+.data-paud-section .data-paud-title {
   color: #2d6ca2;
   font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
   font-family: 'Gotham Narrow Bold';
   font-size: 40px !important;
   display: flex;
   align-items: center;
   vertical-align: center;
-  position: relative;
-  width: 100%;
-  margin-bottom: 100px;
-  margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 768px) {
-  .paud-informasi-data-section {
+  .data-paud-section .data-paud-title {
     margin-bottom: 50px;
     font-size: 26px;
   }
 }
 
-.paud-informasi-data-section::after {
-  content: url("../img/logo-section.png");
-  position: absolute;
-  right: 0;
+.data-paud-section .data-paud-number {
+  font-family: 'Gotham Narrow Medium';
+  font-size: 40px !important;
+  color: #000;
+  margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 768px) {
-  .paud-informasi-data-section::after {
-    content: url("../img/logo-title.jpg");
-    right: -10px !important;
-  }
+.data-paud-section .data-paud-sektor {
+  font-family: 'Gotham Narrow Book';
+  font-size: 25px !important;
+  color: #000;
 }
 
 .paud-main-vertical {
