@@ -387,6 +387,15 @@ body {
 }
 
 .paud-map-widget {
+    .map-image {
+        height: 500px;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        &:hover {
+            background-size: 150% !important;
+        }
+    }
     p {
         font-size: 14px;
         margin-top:15px;

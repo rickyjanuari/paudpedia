@@ -10214,6 +10214,17 @@ li.video:hover:before {
   }
 }
 
+.paud-map-widget .map-image {
+  height: 500px;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.paud-map-widget .map-image:hover {
+  background-size: 150% !important;
+}
+
 .paud-map-widget p {
   font-size: 14px;
   margin-top: 15px;
