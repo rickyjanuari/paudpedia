@@ -9845,16 +9845,29 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-dark {
+  background-color: #5c5c5c !important;
+}
+
+.paud-header-home .bg-dark {
   background-color: #00000080 !important;
   z-index: 99;
 }
 
 main {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 body {
   font-family: 'Gotham Narrow Medium';
+}
+
+p {
+  font-family: 'Gotham Narrow Book';
+}
+
+b {
+  font-family: 'Gotham Narrow Bold';
 }
 
 body {
@@ -10339,7 +10352,6 @@ footer {
 
 .paud-list-forum .paud-list-forum-excerpt {
   font-size: 16px;
-  font-family: 'Gotham Narrow Light' !important;
 }
 
 .paud-list-forum .paud-list-forum-link {
