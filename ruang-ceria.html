@@ -12,20 +12,19 @@
 	<link href="assets/fonts/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
 	<!-- Stylesheet -->
 	<!-- build:css -->
-	<link href="assets/css/app.css" rel="stylesheet" />
-	<link href="assets/css/swiper.min.css" rel="stylesheet" />
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/fonts/font-awesome/css/all.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/fonts/font-gotham-narrow/style.css">
+	<link href="assets/css/app.css" rel="stylesheet" />
 	<!-- endbuild -->
 </head>
 
 <body>
-    <header class="paud-header">
+    <header class="paud-header paud-header-page">
 		<div class="container-fluid">
 			<div class="paud-header_logo">
 				<a href="index.html">
 					<img src="assets/img/logo.png" alt="">
+					<img src="assets/img/logo/ruangceria.png" alt="">
 				</a>
 			</div>
 			<div class="row paud-row justify-content-between align-items-center">
@@ -34,11 +33,25 @@
 				</div>
 				<div class="col-12 col-md-6 text-center">
 					<div class="paud-header_menu_center">
-						<a class="py-2 d-md-inline-block paud-header_menu_center_tentang" href="#">Tentang Kami</a>
-						<a class="py-2 d-md-inline-block" href="https://www.facebook.com/Paudpedia/"><i class="fa fa-facebook-square"></i>paudpedia</a>
-						<a class="py-2 d-md-inline-block" href="https://twitter.com/paudpedia"><i class="fa fa-twitter"></i>paudpedia</a>
-						<a class="py-2 d-md-inline-block" href="https://www.instagram.com/paudpedia/"><i class="fa fa-instagram"></i>paudpedia</a>
-						<a class="py-2 d-md-inline-block" href="https://www.youtube.com/channel/UCZP_K0P4bk7frr_uJmC3j8g"><i class="fa fa-youtube"></i>paudpedia</a>
+						<a class="py-2 d-md-inline-block paud-header_menu_center_tentang" href="#">
+							Tentang Kami
+						</a>
+						<a class="py-2 d-md-inline-block paud-header_menu_center_sosial"
+							href="https://www.facebook.com/Paudpedia/">
+							<i class="fa fa-facebook-square"></i><span>paudpedia</span>
+						</a>
+						<a class="py-2 d-md-inline-block paud-header_menu_center_sosial"
+							href="https://twitter.com/paudpedia">
+							<i class="fa fa-twitter"></i><span>paudpedia</span>
+						</a>
+						<a class="py-2 d-md-inline-block paud-header_menu_center_sosial"
+							href="https://www.instagram.com/paudpedia/">
+							<i class="fa fa-instagram"></i><span>paudpedia</span>
+						</a>
+						<a class="py-2 d-md-inline-block paud-header_menu_center_sosial"
+							href="https://www.youtube.com/channel/UCZP_K0P4bk7frr_uJmC3j8g">
+							<i class="fa fa-youtube"></i><span>paudpedia</span>
+						</a>
 					</div>
 				</div>
 				<div class="col-12 col-md-3 d-flex justify-content-end align-items-center">
@@ -49,53 +62,32 @@
 			</div>
 		</div>
 
-		<nav class="navbar paud-navbar navbar-expand-md  navbar-dark bg-dark">
-			<div class="container-fluid">
-				<div class="paud-navbar-collapse navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-					<ul class="paud-navbar-nav navbar-nav  ml-auto">
-						<li class="paud-nav-item nav-item dropdown">
-							<a class="paud-nav-link nav-link dropdown-toggle" href="merdeka-bermain.html"
-								id="merdekabermain" data-toggle="dropdown" aria-haspopup="true"
-								aria-expanded="false">Merdeka Bermain</a>
-							<div class="paud-dropdown-menu dropdown-menu" aria-labelledby="merdekabermain">
-								<a class="paud-dropdown-item dropdown-item" href="merdeka-bermain.html">Guru Penggerak</a>
-								<a class="paud-dropdown-item dropdown-item" href="merdeka-bermain.html">Orang Tua Pembelajar</a>
-							</div>
-						</li>
-						<li class="paud-nav-item nav-item dropdown">
-							<a class="paud-nav-link nav-link dropdown-toggle" href="ruang-ceria.html" id="ruangceria"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ruang Ceria</a>
-							<div class="paud-dropdown-menu dropdown-menu" aria-labelledby="ruangceria">
-								<a class="paud-dropdown-item dropdown-item" href="ruang-ceria.html">Ruang Cerita</a>
-								<a class="paud-dropdown-item dropdown-item" href="ruang-ceria.html">Ruang Bernyanyi</a>
-								<a class="paud-dropdown-item dropdown-item" href="ruang-ceria.html">Ruang Bermain</a>
-								<a class="paud-dropdown-item dropdown-item" href="ruang-ceria.html">Ruang Belajar</a>
-								<a class="paud-dropdown-item dropdown-item" href="ruang-ceria.html">Ruang Buku</a>
-							</div>
-						</li>
-						<li class="paud-nav-item nav-item dropdown">
-							<a class="paud-nav-link nav-link dropdown-toggle" href="kabar-paud.html" id="kabarpaud"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kabar Paud</a>
-							<div class="paud-dropdown-menu dropdown-menu" aria-labelledby="kabarpaud">
-								<a class="paud-dropdown-item dropdown-item" href="kabar-paud.html">Berita</a>
-								<a class="paud-dropdown-item dropdown-item" href="kabar-paud.html">Inspirasi</a>
-								<a class="paud-dropdown-item dropdown-item" href="kabar-paud.html">Infografis</a>
-								<a class="paud-dropdown-item dropdown-item" href="kabar-paud.html">Paparan</a>
-								<a class="paud-dropdown-item dropdown-item" href="kabar-paud.html">Majalah</a>
-							</div>
-						</li>
-						<li class="paud-nav-item nav-item dropdown">
-							<a class="paud-nav-link nav-link dropdown-toggle" href="tata-kelola.html" id="tatakelola"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tata Kelola</a>
-							<div class="paud-dropdown-menu dropdown-menu" aria-labelledby="tatakelola">
-								<a class="paud-dropdown-item dropdown-item" href="tata-kelola.html">Peraturan</a>
-								<a class="paud-dropdown-item dropdown-item" href="tata-kelola.html">Pedoman</a>
-								<a class="paud-dropdown-item dropdown-item" href="tata-kelola.html">Laporan</a>
-							</div>
-						</li>
-					</ul>
-				</div>
+		<nav class="navbar paud-navbar navbar-dark bg-dark navbar-expand-md">
+			<a class="navbar-brand" href="index.html" ><img src="assets/img/logo-title.jpg" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="paud-navbar-collapse collapse navbar-collapse" id="navbar-header">
+				<ul class="paud-navbar-nav navbar-nav">
+					<li class="paud-nav-item nav-item">
+						<a class="paud-nav-link nav-link" href="ruang-ceria.html">Ruang Cerita</a>
+					</li>
+					<li class="paud-nav-item nav-item">
+						<a class="paud-nav-link nav-link" href="ruang-ceria.html">Ruang Bernyanyi</a>
+                    </li>
+                    <li class="paud-nav-item nav-item">
+						<a class="paud-nav-link nav-link" href="ruang-ceria.html">Ruang Bermain</a>
+                    </li>
+                    <li class="paud-nav-item nav-item">
+						<a class="paud-nav-link nav-link" href="ruang-ceria.html">Ruang Belajar</a>
+                    </li>
+                    <li class="paud-nav-item nav-item">
+						<a class="paud-nav-link nav-link" href="ruang-ceria.html">Ruang Buku</a>
+					</li>
+				</ul>
 			</div>
+			
 		</nav>
 	</header>
 
@@ -531,7 +523,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/vendor/jquery.slim.min.js"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
     <!-- build:js -->
     <script src="assets/js/app.js"></script>
     <!-- endbuild -->

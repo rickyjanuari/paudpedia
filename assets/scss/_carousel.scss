@@ -115,7 +115,7 @@
 }
 
 .paud-carousel {
-  margin-top: -59px;
+  margin-top: -50px;
   .paud-carousel-inner {
     .paud-carousel-item {
       background-repeat: no-repeat;
@@ -149,3 +149,9 @@
     display: none;
   }
 }
+
+// @media only screen and (max-width: 767px) {
+//   .paud-carousel .paud-carousel-inner .paud-carousel-item {
+//     height: 50%;
+//   }
+// }
