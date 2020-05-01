@@ -64,6 +64,9 @@ body {
         content: url('../img/logo-title.jpg');
         margin-right: 10px;
     }
+    @media only screen and (max-width: 320px) { 
+        font-size: 28px !important;
+    }
 }
 
 

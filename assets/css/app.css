@@ -9905,6 +9905,12 @@ body {
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 320px) {
+  .paud-title-section {
+    font-size: 28px !important;
+  }
+}
+
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
@@ -10447,6 +10453,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .paud-header_menu_center_tentang {
+    font-size: 12px !important;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .paud-header_menu_center_sosial i {
     font-size: 24px;
@@ -10497,6 +10509,12 @@ footer {
 .paud-navbar .navbar-brand {
   background: #fff;
   padding-right: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .paud-navbar .navbar-brand {
+    padding-left: 10px;
+  }
 }
 
 .paud-navbar .nav-link {
@@ -10573,4 +10591,10 @@ footer {
 
 .paud-header-page .paud-navbar .navbar-nav li.nav-item {
   border: none;
+}
+
+@media only screen and (max-width: 320px) {
+  .page-link {
+    padding: 0.2rem 0.5rem;
+  }
 }

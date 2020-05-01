@@ -49,6 +49,9 @@
             @media only screen and (max-width: 575px) { 
                 font-size: 18px !important;
             }
+            @media only screen and (max-width: 320px) { 
+                font-size: 12px !important;
+            }
         }
         &_sosial {
             @media only screen and (max-width: 575px) {
@@ -97,6 +100,9 @@
     .navbar-brand {
         background: #fff;
         padding-right: 20px;
+        @media only screen and (max-width: 575px) { 
+            padding-left: 10px;
+        }
     }
     .nav-link {
         display: block;
@@ -171,5 +177,11 @@
     }
     .paud-navbar .navbar-nav li.nav-item {
         border: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .page-link {
+        padding: 0.2rem 0.5rem;
     }
 }
