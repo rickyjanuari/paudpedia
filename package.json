@@ -1,12 +1,12 @@
 {
-  "name": "bootstrap-4-gulp-4-sass-boilerplate",
+  "name": "PaudPedia",
   "version": "1.0.0",
-  "description": "Gulp 4 Boostrap 4 Sass Workflow",
+  "description": "Paud Pedia Kementrian Pendidikan Dan Kebudayaan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ferdinand Tugano",
+  "author": "Ricky Januari",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -29,19 +29,11 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/designdust/bootstrap-4-gulp-4-sass-boilerplate.git"
-  },
   "keywords": [
     "Sass",
     "Gulp",
     "4",
     "bootstrap",
     "4"
-  ],
-  "bugs": {
-    "url": "https://github.com/designdust/bootstrap-4-gulp-4-sass-boilerplate/issues"
-  },
-  "homepage": "https://github.com/designdust/bootstrap-4-gulp-4-sass-boilerplate#readme"
+  ]
 }
