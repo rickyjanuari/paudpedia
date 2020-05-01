@@ -9701,6 +9701,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+button:focus {
+  outline: none;
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
